@@ -30,7 +30,14 @@ This repository contains a Playwright fundamentals sample project for browser au
    npx playwright show-report
    ```
 
+## Test Files
+
+- `tests/01_basic_tc.spec.ts` - Basic test case that navigates to IDrive and verifies the page title
+- `tests/02_practice.spec.ts` - Practice test that verifies IDrive Cloud Backup page title and content
+- `e2e/example.spec.ts` - Example end-to-end test
+
 ## Notes
 
 - This repository is configured to use Playwright Test.
-- The sample tests navigate to `https://playwright.dev/` and verify page behavior.
+- Tests verify page navigation and title validation against real-world applications.
+- The sample tests are designed for learning and practicing Playwright fundamentals.
